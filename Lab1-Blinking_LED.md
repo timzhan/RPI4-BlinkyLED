@@ -55,7 +55,7 @@ for i in range(0, times):
     time.sleep(interval)
 ```
 
-The source code can be found from [HERE](sources/test_Blinky_LED.py).
+The source code can be found from [HERE](sources/local-container/test_Blinky_LED.py).
 
 ### Run the app
 

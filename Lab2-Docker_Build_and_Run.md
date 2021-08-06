@@ -7,7 +7,6 @@
 ## Create a Dockerfile
 
 ```
-
 FROM arm32v7/python:3.7-slim-buster
 
 WORKDIR /app
@@ -27,6 +26,7 @@ CMD [ "python3", "test_Blinky_Led.py"]
 
 We use python:3.7 here just for the reason that the default version of RPI4 is Python 3.7. You may use 3.8, 3,9 or 3.10.
 
+The sample dockerfile can be found from [HERE](sources/local-container/Dockerfile).
 
 ## Build Docker image
 
@@ -47,3 +47,4 @@ sudo docker run --privileged blinky-led
 
 You will see the LED blinking for 5 times.
 
+<END>

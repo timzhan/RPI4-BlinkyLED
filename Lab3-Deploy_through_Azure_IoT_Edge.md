@@ -73,14 +73,14 @@ Update the `connection string` to the above one.
 
 In VS Code explorer, open `modules\BlinkyLED` -> `main.py`.
 
-Source code is [here](sources/main.py).
+Source code is [here](sources/azure-iotedge/main.py).
 
 
 ## Update deployment.template.json
 
 In the VS Code explorer, open the `deployment.template.json` -> Remove `TemperatureThreshold` portion and `$edgeHub: "routes":{}`.
 
-The template can be found [here](sources/deployment.template.json).
+The template can be found [here](sources/azure-iotedge/deployment.template.json)
 
 ## Update module.json
 
@@ -110,6 +110,8 @@ The sample module.json file can be found [here](sources/azure-iotedge/module.jso
 
 Open VS Code integrated terminal.
 
+**Note**: You should create your own Azure Container Registry if you haven't.
+
 For **Azure China**, use below command:
 
 ```
@@ -135,3 +137,5 @@ You may verify the result from RPI4.
 ![](images/iotedge-list.png)
 
 Once running, you will notice that the led will blink 10 times.
+
+<END>
