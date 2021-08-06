@@ -31,5 +31,5 @@ This lab is to show you how to blink a LED on Raspberry Pi 4B.
 - Lab 1: Blinking LED
 - Lab 2: Docker build and run the app
 - Lab 3: Deploy the app through Azure IoT Edge
-- 
-- 
+
+<END>
